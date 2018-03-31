@@ -8,6 +8,7 @@ There are basically three kinds of facet queries:
  1. date facets
  1. arbitrary facet queries
 
+More things to merge
 Facet queries are issued through the `FacetQueries` property of `QueryOptions`. Then the `QueryOptions` instance is passed to the server instance.
 
 #### Facet Limits
@@ -22,6 +23,8 @@ Or on the other hand your project requires all facets to be returned and since S
 
 This is a test branch
 
+og lidtmereher..
+os sv..
 ### Querying by field
 Querying by field is handled by the `SolrFacetFieldQuery` class. Results are available through the `FacetFields` property.
 
