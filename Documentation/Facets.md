@@ -2,7 +2,7 @@
 
 SolrNet supports [faceted searching](https://cwiki.apache.org/confluence/display/solr/Faceting).
 
-Test 1 There are basically three kinds of facet queries:
+Test 1 and 2: There are basically three kinds of facet queries:
 
  1. querying by field
  1. date facets
@@ -10,6 +10,8 @@ Test 1 There are basically three kinds of facet queries:
 
 Facet queries are issued through the `FacetQueries` property of `QueryOptions`. Then the `QueryOptions` instance is passed to the server instance.
 franew test skod mellemrumstast
+More things to merge
+
 #### Facet Limits
 There is a possibility that a field that you are using as a facet may have too many values and thus you may want to limit how many should be displayed. For this purpose we have the `Limit` property in `SolrFacetFieldQuery`.
 
@@ -24,6 +26,8 @@ Or on the other hand your project requires all facets to be returned and since S
 
 This is a test branch
 
+og lidtmereher..
+os sv..
 ### Querying by field
 Querying by field is handled by the `SolrFacetFieldQuery` class. Results are available through the `FacetFields` property.
 
